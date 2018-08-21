@@ -1,1 +1,5 @@
 version: wittz.com/version/1.0.0/release/config-client-1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
